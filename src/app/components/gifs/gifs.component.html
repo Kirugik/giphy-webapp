@@ -1,0 +1,8 @@
+<div class="container">
+    <h4>Trending</h4>
+    <div class="gifs">
+        <div *ngFor="let gif of gifs" class="gif">
+            <img [src]="gif.images.downsized.url" alt="GIFS">
+        </div>
+    </div>
+</div>
