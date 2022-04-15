@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchComponent } from './components/search/search.component';
 import { FlagComponent } from './components/flag/flag.component';
 import { GifsComponent } from './components/gifs/gifs.component';
+import { TrendingComponent } from './components/trending/trending.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GifsComponent } from './components/gifs/gifs.component';
     NavbarComponent,
     SearchComponent,
     FlagComponent,
-    GifsComponent
+    GifsComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,
