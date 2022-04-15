@@ -10,6 +10,7 @@ import { SearchComponent } from './components/search/search.component';
 import { FlagComponent } from './components/flag/flag.component';
 import { GifsComponent } from './components/gifs/gifs.component';
 import { TrendingComponent } from './components/trending/trending.component';
+// import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TrendingComponent } from './components/trending/trending.component';
     FlagComponent,
     GifsComponent,
     TrendingComponent
+    // HomeComponent
   ],
   imports: [
     BrowserModule,
